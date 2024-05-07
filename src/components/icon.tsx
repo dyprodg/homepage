@@ -1,6 +1,11 @@
 import React from 'react';
 
-const Icon = ({ size, color, ...props }) => (
+interface IconProps extends SVGProps<SVGSVGElement> {
+  size: number;
+  color: string;
+}
+
+const Icon: React.FC<IconProps> = ({ size, color, ...props }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 513.7 402.33"
