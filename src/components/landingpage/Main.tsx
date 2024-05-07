@@ -31,7 +31,7 @@ export default function MainBodyDesktop() {
                 transition={{ duration: 2, delay: 4.5, type: "spring", stiffness: 80}}
              >
                 <p className="text-2xl italic mt-12">
-                    I have a passion for building websites, platforms and cloud infrastructure. I have experience in developing serverless web applications, cloud infrastructure, and automation tools. I'm always looking for new challenges and opportunities to learn and grow.
+                    {`I have a passion for building websites, platforms and cloud infrastructure. I have experience in developing serverless web applications, cloud infrastructure, and automation tools. I'm always looking for new challenges and opportunities to learn and grow.`}
                 </p>
              </motion.div>
             {/* Third Text*/}
