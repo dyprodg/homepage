@@ -17,6 +17,15 @@
           "appId": "d94ngv8rmhsbi",
           "type": "cicd"
         }
+      },
+      "function": {
+        "mail": {
+          "deploymentBucketName": "amplify-homepage-dev-b2283-deployment",
+          "s3Key": "amplify-builds/mail-6174536a4b6c4a2f4977-build.zip"
+        }
+      },
+      "api": {
+        "apifa14b5ce": {}
       }
     }
   }

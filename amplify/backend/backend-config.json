@@ -1,4 +1,27 @@
 {
+  "api": {
+    "apifa14b5ce": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "mail"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "mail": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
   "hosting": {
     "amplifyhosting": {
       "lastPushTimeStamp": "2024-05-07T22:38:25.394Z",
@@ -7,6 +30,22 @@
     }
   },
   "parameters": {
+    "AMPLIFY_function_mail_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mail"
+        }
+      ]
+    },
+    "AMPLIFY_function_mail_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "mail"
+        }
+      ]
+    },
     "AMPLIFY_hosting_amplifyhosting_appId": {
       "usedBy": [
         {

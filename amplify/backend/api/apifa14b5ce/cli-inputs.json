@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/mail": {
+      "name": "/mail",
+      "lambdaFunction": "mail",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
