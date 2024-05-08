@@ -8,7 +8,7 @@ import { Tooltip } from "./tooltipp"
 
 export default function MainBodyDesktop() {
     return (
-    <div className="w-full h-screen bg-transparent flex flex-col items-center relative z-20 ">
+    <div className="w-full h-screen bg-transparent flex flex-col justify-start md:justify-center items-center relative z-20 ">
       <div className="w-full flex flex-col lg:flex-row justify-evenly items-center lg:mt-20">
         <motion.div className="p-4"> 
             {/* Main Text*/}
@@ -26,7 +26,7 @@ export default function MainBodyDesktop() {
             {/* Second Text*/}
              <motion.div 
                 className="max-w-[500px] md:max-w-[800px] text-center md:text-left"
-                initial={{ x: -1000 }}
+                initial={{ x: -1300 }}
                 animate={{ x: 0 }}
                 transition={{ duration: 2, delay: 4.5, type: "spring", stiffness: 80}}
              >
@@ -37,7 +37,7 @@ export default function MainBodyDesktop() {
             {/* Third Text*/}
              <motion.div
                 className="max-w-[500px] md:max-w-[800px] "
-                initial={{ x: -1000 }}
+                initial={{ x: -1300 }}
                 animate={{ x: 0 }}
                 transition={{ duration: 2, delay: 4.8, type: "spring", stiffness: 80}}
              >
