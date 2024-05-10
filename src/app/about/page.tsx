@@ -2,7 +2,6 @@
 import AboutMain from '@/components/about/about-main';
 import { Background } from '@/components/background';
 import VideoPlayer from '@/components/video-player';
-import Image from 'next/image';
 
 export default function AboutPage() {
     return(

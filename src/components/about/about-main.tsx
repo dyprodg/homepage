@@ -76,7 +76,7 @@ export default function AboutMain() {
                         <a className='text-blue-600 text-8xl font-bold'>Why </a>am i doing it?
                         </p>
                         <p className='text-3xl mt-4 text-center md:text-right uppercase'>
-                            As a creative at heart, I'm also deeply committed to technology
+                            {`As a creative at heart, I'm also deeply committed to technology`}
                         </p>
                         <p className='text-3xl text-center md:text-right uppercase'>
                             I always strive to learn more about the digital world
@@ -85,7 +85,7 @@ export default function AboutMain() {
                             As a 13 year old, I build my first computer
                         </p>
                         <p className='text-3xl text-center md:text-right uppercase'>
-                            Since that day, I'm fascinated by the possibilities of technology
+                            {`Since that day, I'm fascinated by the possibilities of technology`}
                         </p>
                         <p className='text-3xl text-center md:text-right uppercase'>
                             And using my skills to help others
@@ -111,7 +111,7 @@ export default function AboutMain() {
                             always looking for new challenges and opportunities to learn and grow
                         </p>
                         <p className='text-3xl text-center uppercase'>
-                            I'm currently self-studying cybersecurity to protect the digital assets I develop
+                            {`I'm currently self-studying cybersecurity to protect the digital assets I develop`}
                         </p>
                     </div>
                 </motion.div>
@@ -120,7 +120,7 @@ export default function AboutMain() {
                     className='w-full flex flex-col justify-center items-center p-4 my-20 '
                 >
                     <p className='text-2xl text-center uppercase m-4'>
-                          Wanna See the <a className='text-blue-500 font-bold'>Projects</a> I've worked on? Or get in touch with me? 
+                          {`Wanna See the`} <a className='text-blue-500 font-bold'>Projects</a> {`I've worked on? Or get in touch with me? `}
                     </p>
                     <div className='flex space-x-8'>
                     <Link

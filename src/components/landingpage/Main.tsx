@@ -1,10 +1,8 @@
 'use client'
-import Icon from "../icon"
 import Image from "next/image"
 import { TextGenerateEffect } from "../text-generate"
 import { motion } from "framer-motion"
 import { Tooltip } from "./tooltipp"
-import { HoverBorderGradient } from "../hover-gradient-border"
 import { Button } from "../moving-border"
 import Link from "next/link"
 
