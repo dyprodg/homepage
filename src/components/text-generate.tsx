@@ -29,10 +29,11 @@ export const TextGenerateEffect = ({
     return (
       <motion.div ref={scope}>
         {wordsArray.map((word, idx) => {
+          const isSpecialWord = ["Fullstack", "Developer", "Cloud", "Engineer"].includes(word);
           return (
             <motion.span
               key={word + idx}
-              className="text-white opacity-0"
+              className={isSpecialWord ? "text-blue-500 font-bold text-5xl opacity-0" : "text-white opacity-0"}
             >
               {word}{" "}
             </motion.span>
@@ -41,7 +42,6 @@ export const TextGenerateEffect = ({
       </motion.div>
     );
   };
-
   return (
     <div className={cn("font-bold", className)}>
       <div className="mt-4">

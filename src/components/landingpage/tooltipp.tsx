@@ -146,7 +146,7 @@ const stack = [
 
 export function Tooltip() {
   return (
-    <div className="flex flex-row items-center justify-center w-full">
+    <div className="flex flex-row items-center justify-center w-[380px] md:w-full">
             <AnimatedTooltip items={stack} />
       </div>
   );
