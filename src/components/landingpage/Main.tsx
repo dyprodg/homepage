@@ -5,9 +5,21 @@ import { motion } from "framer-motion"
 import { Tooltip } from "./tooltipp"
 import { Button } from "../moving-border"
 import Link from "next/link"
+import { useState, useEffect } from "react"
+
 
 
 export default function MainBodyDesktop() {
+  const [yValue, setYValue] = useState(300)
+  useEffect(() => {
+    const handleResize =() => {
+      setYValue(window.innerWidth < 768 ? 0 : 300)
+    }
+    window.addEventListener('resize', handleResize)
+    handleResize();
+    return () => window.removeEventListener('resize', handleResize)
+  }, [])
+
     return (
     <div className="w-full h-screen bg-transparent flex flex-col items-center relative z-20 ">
       <div className="w-full flex flex-col lg:flex-row justify-evenly items-center mt-20">
@@ -15,7 +27,7 @@ export default function MainBodyDesktop() {
             {/* Main Text*/}
             <motion.div
                 className="max-w-[500px] md:max-w-[800px] text-center md:text-left"
-                initial={{ y: 300 }}
+                initial={{ y: yValue }}
                 animate={{ y: 0 }}
                 transition={{ duration: 0.5, delay: 4, type: "spring", stiffness: 30}}
             >
