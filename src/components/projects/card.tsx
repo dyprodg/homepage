@@ -38,6 +38,7 @@ export default function CardComp({
                 </p>
                 <Link
                     href={github}
+                    target={github}
                     className="w-full flex justify-center"
                 >
                     <div className="border p-2 rounded-xl hover:scale-105 shadow-custom-white">
