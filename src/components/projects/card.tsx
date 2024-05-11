@@ -53,6 +53,10 @@ export default function CardComp({
                 title={href}
                 href={href}
             >
+                <Link
+                    href={href}
+                    target={href}
+                >
                 <div className="flex basis-full flex-col p-3 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
                 <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
                     {title}
@@ -76,6 +80,7 @@ export default function CardComp({
                 </div>
                 
                 </div>
+                </Link>
             </PinContainer>
         </div>
     )
