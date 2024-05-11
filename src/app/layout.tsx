@@ -22,6 +22,12 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
+  openGraph: {
+    images: [{ url: "https://d3nohlcdf7fia8.cloudfront.net/dennisdiepolder-thumbnail.png"}],
+    type: "website",
+    locale: "eu_CH",
+    siteName: "Dennis Diepolder - Fullstack Developer and DevOps Engineer",
+  }
 };
 
 export default function RootLayout({
