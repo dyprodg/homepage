@@ -6,6 +6,7 @@ import { Tooltip } from "./tooltipp"
 import { Button } from "../moving-border"
 import Link from "next/link"
 import { useState } from "react"
+import Footer from "../footer"
 
 
 
@@ -37,9 +38,9 @@ export default function MainBodyDesktop() {
                 animate={{ x: 0 }}
                 transition={{ duration: 2, delay: 4.5, type: "spring", stiffness: 80}}
              >
-                <p className="hidden md:block text-2xl mt-20">
+                <div className="hidden md:block text-2xl mt-20">
                     {`I have a passion for building websites, platforms and cloud infrastructure. I am experienced in developing serverless web applications, cloud infrastructure, and automation tools. I'm always looking for new challenges and opportunities to learn and grow.`}
-                </p>
+                </div>
              </motion.div>
             {/* Third Text*/}
              <motion.div
@@ -111,15 +112,23 @@ export default function MainBodyDesktop() {
         animate={{ y: 0 }}
         transition={{ duration: 1, delay: 5, type: "spring", stiffness: 30}}
       >
-        <p className="p-4 text-4xl">
+        <div className="p-4 text-4xl">
             My <span className="text-blue-600">Tech Stack</span> to achieve this goal:
-        </p>
+        </div>
 
         <div>
             <Tooltip />
         </div>
       </motion.div>
-
+      <motion.div
+        className="w-full"
+        initial={{ opacity: 0}}
+        animate={{ opacity: 1}}
+        transition={{ duration: 2, delay: 6}}
+      >
+        <Footer />
+      </motion.div>
+      
     </div>
     )
 }

@@ -1,6 +1,7 @@
 
 import AboutMain from '@/components/about/about-main';
 import { Background } from '@/components/background';
+import Footer from '@/components/footer';
 import VideoPlayer from '@/components/video-player';
 
 export default function AboutPage() {
@@ -9,18 +10,19 @@ export default function AboutPage() {
             <Background />
             <div className="w-full flex flex-col md:flex-row justify-evenly items-center relative z-30 mt-16 p-4">
                 <div>
-                    <p className="text-8xl md:text-9xl">
+                    <div className="text-8xl md:text-9xl">
                         LET ME
-                    </p>
-                    <p className="text-6xl md:text-7xl font-bold"> 
+                    </div>
+                    <div className="text-6xl md:text-7xl font-bold"> 
                         INTRODUCE MYSELF
-                    </p>
+                    </div>
                 </div>
                 <div className='m-8'>
                     <VideoPlayer />
                 </div>
             </div>
             <AboutMain />
+            <Footer />
         </div>
     )
 }

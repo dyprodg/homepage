@@ -14,7 +14,7 @@ type CardProps = {
     longdescription: string;
     image: string;
     imageAlt: string;
-    github: string;
+    github?: string;
 }
 
 export default function CardComp({
@@ -33,31 +33,32 @@ export default function CardComp({
                 <h1 className="text-xl md:text-2xl uppercase font-bold m-4">
                     {header}
                 </h1>
-                <p className="m-4">
+                <div className="m-4">
                     {longdescription}
-                </p>
-                <Link
+                </div>
+                {github && (
+                <Link 
                     href={github}
-                    target={github}
-                    className="w-full flex justify-center"
+                    target="_blank" rel="noopener noreferrer"
                 >
-                    <div className="border p-2 rounded-xl hover:scale-105 shadow-custom-white">
-                        <VscGithub 
-                            size={60}
-                        />
+                    <div  className="w-full flex justify-center">
+                        <div className="border p-2 rounded-xl hover:scale-105 shadow-custom-white">
+                            <VscGithub size={60} />
+                        </div>
                     </div>
-
                 </Link>
+            )}
 
             </div>
+            <Link
+                href={href}
+                target={href}
+            >
             <PinContainer
                 title={href}
                 href={href}
             >
-                <Link
-                    href={href}
-                    target={href}
-                >
+
                 <div className="flex basis-full flex-col p-3 tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
                 <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
                     {title}
@@ -68,7 +69,7 @@ export default function CardComp({
                     </span>
                 </div>
                 <div 
-                    className="w-[300px] h-[250px] justify-center border overflow-hidden"
+                    className="w-[300px] h-[250px] justify-center overflow-hidden"
                     >
                 <Image 
                     src={image}
@@ -81,8 +82,8 @@ export default function CardComp({
                 </div>
                 
                 </div>
-                </Link>
             </PinContainer>
+            </Link>
         </div>
     )
 }
