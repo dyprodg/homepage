@@ -19,7 +19,7 @@ export default function AGB() {
                 </div>
                 <h1 className="text-xl font-bold mt-2">2. Copyright</h1>
                 <div>
-                  All content on this website, including texts, graphics (excluding icons), logos, and images are owned by the company and protected by copyright law. The use of the content, including reproduction, modification, distribution, or reproduction without prior written consent of the company is strictly prohibited.
+                  All content on this website, including texts, logos, and images are owned by the company and protected by copyright law. The use of the content, including reproduction, modification, distribution, or reproduction without prior written consent of the company is strictly prohibited. The codebase is open-source and can be found on GitHub.  <a className="underline">https://github.com/dyprodg/homepage</a>
                 </div>
                 <h1 className="text-xl font-bold mt-2">3. Cookies</h1>
                 <div>
