@@ -134,7 +134,7 @@ export default function AboutMain() {
                     </Button>
                     </Link>
                     <Link
-                        href='/projects'
+                        href='/contact'
                     >
                     <Button
                         borderRadius='1.75rem'

@@ -5,20 +5,14 @@ import { motion } from "framer-motion"
 import { Tooltip } from "./tooltipp"
 import { Button } from "../moving-border"
 import Link from "next/link"
-import { useState, useEffect } from "react"
+import { useState } from "react"
 
 
 
 export default function MainBodyDesktop() {
-  const [yValue, setYValue] = useState(300)
-  useEffect(() => {
-    const handleResize =() => {
-      setYValue(window.innerWidth < 768 ? 0 : 300)
-    }
-    window.addEventListener('resize', handleResize)
-    handleResize();
-    return () => window.removeEventListener('resize', handleResize)
-  }, [])
+  const [yValue, setYValue] = useState(
+    typeof window !== "undefined" && window.innerWidth < 768 ? 0 : 300
+  );
 
     return (
     <div className="w-full h-screen bg-transparent flex flex-col items-center relative z-20 ">
@@ -49,7 +43,7 @@ export default function MainBodyDesktop() {
              </motion.div>
             {/* Third Text*/}
              <motion.div
-                className="max-w-[500px] md:max-w-[800px] justify-center flex mt-20"
+                className="max-w-[500px] md:max-w-[800px] justify-center flex my-12 md:my-0 md:mt-20"
                 initial={{ x: -1300 }}
                 animate={{ x: 0 }}
                 transition={{ duration: 2, delay: 4.8, type: "spring", stiffness: 80}}
@@ -91,7 +85,7 @@ export default function MainBodyDesktop() {
         </motion.div>
 
                 {/* Mobile */}
-                <motion.div className="flex md:hidden rounded-full object-cover overflow-hidden relative m-4 mt-4 z-40"
+                <motion.div className="flex md:hidden rounded-3xl object-cover overflow-hidden relative mx-4 z-40"
             initial={{ x: 800, opacity: 0 }}
             animate={{ x: 0, opacity: 1}}
             transition={{ duration: 1, delay: 4.5, type: "spring", stiffness: 80}}
@@ -112,7 +106,7 @@ export default function MainBodyDesktop() {
       </div>
 
         {/* Tech Stack */}
-      <motion.div className="flex flex-col items-center text-center md:text-left mt-20 justify-center md:flex-row relative z-20"
+      <motion.div className="flex flex-col items-center text-center md:text-left md:mt-20 justify-center md:flex-row relative z-20"
         initial={{ y: 600 }}
         animate={{ y: 0 }}
         transition={{ duration: 1, delay: 5, type: "spring", stiffness: 30}}
