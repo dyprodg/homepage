@@ -1,5 +1,11 @@
 import Footer from "@/components/footer";
 
+export const metadata = {
+    title: "Dennis Diepolder - AGB",
+    description: "This is the terms and conditions.",
+    keywords: ["Terms", "Conditions"],
+  };
+
 export default function AGB() {
     return (
       <div className="w-full flex flex-col bg-black h-screen uppercase mt-20 space-y-1 p-8">

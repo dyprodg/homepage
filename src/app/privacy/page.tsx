@@ -1,5 +1,11 @@
 import Footer from "@/components/footer";
 
+export const metadata = {
+    title: "Dennis Diepolder - Projects Policy",
+    description: "This is the privacy policy.",
+    keywords: ["Privacy", "Policy"],
+  };
+
 export default function Privacy() {
     return (
         <div className="w-full relative flex flex-col h-screen justify-center items-center bg-black z-30">

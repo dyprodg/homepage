@@ -4,6 +4,12 @@ import { Background } from '@/components/background';
 import Footer from '@/components/footer';
 import VideoPlayer from '@/components/video-player';
 
+export const metadata = {
+    title: "Dennis Diepolder - About",
+    description: "Get to know Dennis Diepolder.",
+    keywords: ["About", "Dennis Diepolder"],
+  };
+
 export default function AboutPage() {
     return(
         <div className="w-full flex flex-col">

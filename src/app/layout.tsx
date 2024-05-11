@@ -11,6 +11,17 @@ const poppins = Poppins({ weight: '400', subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Dennis Diepolder - Fullstack Developer and DevOps Engineer",
   description: "Dennis Diepolder is a Fullstack Developer and DevOps Engineer based in Switzerland.",
+  keywords: ["Dennis Diepolder", "Fullstack Developer", "DevOps Engineer", "Switzerland"],
+  creator: "Dennis Diepolder",
+  publisher: "Dennis Diepolder",
+  authors: [
+    { name: "Dennis Diepolder", url: "https://dennisdiepolder.com"}
+  ],
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
 };
 
 export default function RootLayout({

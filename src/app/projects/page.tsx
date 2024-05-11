@@ -4,6 +4,12 @@ import { Button } from "@/components/moving-border"
 import Link from "next/link"
 import Footer from "@/components/footer"
 
+export const metadata = {
+    title: "Dennis Diepolder - Projects",
+    description: "Here are some of the projects that he has worked on.",
+    keywords: ["Projects", "Portfolio"],
+  };
+
 export default function ProjectPage() {
     return (
         <div className="flex flex-col w-full h-screen">

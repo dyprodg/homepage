@@ -1,5 +1,12 @@
 import Footer from "@/components/footer";
 
+export const metadata = {
+    title: "Dennis Diepolder - Impressum",
+    description: "These are my contact details.",
+    keywords: ["Contact", "Details", "Impressum"],
+  };
+
+
 export default function Impressum() {
     return (
         <div className="w-full relative flex flex-col h-screen justify-center items-center bg-black z-30">
