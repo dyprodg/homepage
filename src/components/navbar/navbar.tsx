@@ -10,7 +10,7 @@ export default function Navbar() {
             </Link>
             <Link
                 className="p-4 text-2xl font-bold hover:text-blue-500 transition duration-100 ease-in-out"
-                href="/"
+                href="/about"
             >About Me
             </Link>
             <Link

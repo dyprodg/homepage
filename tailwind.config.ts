@@ -14,6 +14,9 @@ const config: Config = {
   darkMode: "class",
   theme: {
     extend: {
+      boxShadow: {
+        'blue': '0 0 30px 0 rgba(0, 0, 255, 0.6)'
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

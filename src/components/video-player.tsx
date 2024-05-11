@@ -6,7 +6,7 @@ export default function VideoPlayer() {
     const [muted, setMuted] = useState(false);
 
     useEffect(() => {
-        const videoDuration = 26;
+        const videoDuration = 27;
         const timeoutId = setTimeout(() => {
             setMuted(true);
         }, videoDuration * 1000);
@@ -26,6 +26,7 @@ export default function VideoPlayer() {
                 autoPlay={true}
                 muted={muted}
                 loop={true}
+                playsInline={true}
             />
 
             <button 

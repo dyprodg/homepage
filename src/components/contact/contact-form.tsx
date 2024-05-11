@@ -1,6 +1,8 @@
 'use client';
 import { useState } from "react";
 import { sendMail } from "@/app/actions";
+import { Button } from "../moving-border";
+
 
 export default function ContactForm() {
     const [name, setName] = useState("");
@@ -23,7 +25,8 @@ export default function ContactForm() {
 
     return(
         <div className="w-full h-screen flex justify-center items-center text-white relative z-30">
-            <div className="flex flex-col border border-gray-400 w-[370px] md:w-[600px] rounded-3xl p-4">
+            {/* Form */}
+            <div className="flex flex-col border border-blue-500 shadow-blue w-[370px] md:w-[600px] rounded-3xl p-4">
                 <input 
                     className="flex p-2 m-4 outline-white rounded-full border-2 border-gray-400 bg-neutral-800 active:border-white text-white placeholder:text-gray-400 text-lg"
                     placeholder="Name"
@@ -49,10 +52,13 @@ export default function ContactForm() {
                     required
                 />
 
-                <button 
-                    className="flex p-2 m-4 rounded-full border-2 border-neutral-200 bg-neutral-200 active:border-white text-black placeholder:text-gray-400 justify-center text-lg active:scale-105 transition duration-100 ease-in-out disabled:bg-gray-400"
+                <div
+                    className="flex justify-center items-center w-full h-16 relative z-30"
+                >
+                <Button
                     onClick={handleSubmit}
                     disabled={loading}
+                    className="text-xl hover:scale-105"
                     >
                     {loading ? (
                     <p>Loading...</p>
@@ -61,8 +67,10 @@ export default function ContactForm() {
                         Send
                     </p>}
                     
-                </button>
+                </Button>
+                </div>
             </div>
+            
         </div>
     )
 }

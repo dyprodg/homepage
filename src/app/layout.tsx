@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar/navbar";
+import CookieBanner from "@/components/cookie-banner";
 
 const poppins = Poppins({ weight: '400', subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function RootLayout({
       <body className={poppins.className}>
         <Navbar />
         {children}
+        <CookieBanner />
       </body>
     </html>
   );
