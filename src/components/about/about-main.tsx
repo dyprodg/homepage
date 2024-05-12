@@ -173,7 +173,7 @@ export default function AboutMain() {
                             Create userplatforms and cloud infrastructure
                         </div>
                         <div className='text-3xl text-center uppercase'>
-                            and also automate tasks for effientcy
+                            and also automate tasks for efficiency
                         </div>
                         <div className='text-3xl text-center uppercase'>
                             always looking for new challenges and opportunities to learn and grow
