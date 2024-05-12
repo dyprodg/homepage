@@ -13,9 +13,9 @@ export default function Impressum() {
             <div className="w-[400px] md:w-[500px] lg:w-[800px] xl:w-[1000px] p-4 uppercase">
                 <h1 className="font-bold text-2xl">Impressum</h1>
                 <p>Dennis Diepolder</p>
-                <p>Rankstrasse 3</p>
-                <p>8280 Kreuzlingen</p>
-                <p>Switzerland</p>
+                <p>Ringstrasse 30</p>
+                <p>82279 Eching</p>
+                <p>DE</p>
                 <p>Phone: +49 160 9120 8750</p>
                 <p>info@dennisdiepolder.com</p>
             </div>

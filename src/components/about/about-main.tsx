@@ -79,10 +79,10 @@ export default function AboutMain() {
                             className='rounded-3xl md:hidden block'
                         />
                     <div className='text-3xl mt-4 text-center uppercase'>
-                            Originally from Munich, Germany
+                            I am 27 years old
                         </div>
                         <div className='text-3xl text-center uppercase'>
-                            I now reside in Kreuzlingen - Switzerland.
+                            and from munich, germany
                         </div>
                     </motion.div>
                 </div>

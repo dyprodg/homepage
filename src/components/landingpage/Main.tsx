@@ -28,7 +28,7 @@ export default function MainBodyDesktop() {
             >
             <TextGenerateEffect
                 className="text-4xl"
-                words={`Hi, my name is Dennis Diepolder and I'm a Fullstack Developer and Cloud Engineer based in Switzerland.`} 
+                words={`Hi, my name is Dennis Diepolder and I'm a Fullstack Developer and Cloud Engineer.`} 
              />
              </motion.div>
             {/* Second Text*/}
