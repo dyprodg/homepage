@@ -12,7 +12,7 @@ type CardProps = {
 export const projects: CardProps[] = [
     {
         title: 'Platform',
-        href: 'https://justanothersocialmedia.net',
+        href: 'https://github.com/dyprodg/eagler',
         header: 'Eagler - Just Another Social Media',
         shortdescription: 'Photo upload and sharing platform',
         longdescription:  'A social media platform built with Next.js and Tailwind CSS. Users can create an account, upload, like, and comment on pictures. It features a responsive design and is hosted on a custom EC2 Cluster on AWS, with a PostgreSQL database and S3/CloudFront. More details on Github.'
