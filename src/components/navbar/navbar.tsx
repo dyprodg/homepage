@@ -22,19 +22,19 @@ export default function Navbar() {
                         Home
                     </p>
                 </Link>
-                <Link href="/about">
-                    <p className={`p-4 font-bold transition duration-100 ease-in-out ${isActive('/about') ? 'text-blue-500' : 'hover:text-blue-500'}`}>
-                        About
+                <Link href="/infos">
+                    <p className={`p-4 font-bold transition duration-100 ease-in-out ${isActive('/infos') ? 'text-blue-500' : 'hover:text-blue-500'}`}>
+                        Infos
                     </p>
                 </Link>
-                <Link href="/projects">
-                    <p className={`p-4 font-bold transition duration-100 ease-in-out ${isActive('/projects') ? 'text-blue-500' : 'hover:text-blue-500'}`}>
-                        Projects
+                <Link href="/projekte">
+                    <p className={`p-4 font-bold transition duration-100 ease-in-out ${isActive('/projekte') ? 'text-blue-500' : 'hover:text-blue-500'}`}>
+                        Projekte
                     </p>
                 </Link>
-                <Link href="/contact">
-                    <p className={`p-4 font-bold transition duration-100 ease-in-out ${isActive('/contact') ? 'text-blue-500' : 'hover:text-blue-500'}`}>
-                        Contact
+                <Link href="/kontakt">
+                    <p className={`p-4 font-bold transition duration-100 ease-in-out ${isActive('/kontakt') ? 'text-blue-500' : 'hover:text-blue-500'}`}>
+                        Kontakt
                     </p>
                 </Link>
             </motion.div>

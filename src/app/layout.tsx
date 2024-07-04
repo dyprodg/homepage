@@ -3,15 +3,14 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar/navbar";
 import CookieBanner from "@/components/cookie-banner";
-import Footer from "@/components/footer";
 
 const poppins = Poppins({ weight: '400', subsets: ["latin"] });
 
 
 export const metadata: Metadata = {
-  title: "Dennis Diepolder - Fullstack Developer and DevOps Engineer",
-  description: "Dennis Diepolder is a Fullstack Developer and DevOps Engineer based in Switzerland.",
-  keywords: ["Dennis Diepolder", "Fullstack Developer", "DevOps Engineer", "Switzerland"],
+  title: "Dennis Diepolder - Fullstack Entwickler und DevOps Ingenieur",
+  description: "Dennis Diepolder ist ein Fullstack Entwickler und DevOps Ingenieur mit Sitz in der Schweiz.",
+  keywords: ["Dennis Diepolder", "Fullstack Entwickler", "DevOps Ingenieur", "Schweiz"],
   creator: "Dennis Diepolder",
   publisher: "Dennis Diepolder",
   authors: [
@@ -26,9 +25,10 @@ export const metadata: Metadata = {
     images: [{ url: "https://d3nohlcdf7fia8.cloudfront.net/dennisdiepolder-thumbnail.png"}],
     type: "website",
     locale: "eu_CH",
-    siteName: "Dennis Diepolder - Fullstack Developer and DevOps Engineer",
+    siteName: "Dennis Diepolder - Fullstack Entwickler und DevOps Ingenieur",
   }
 };
+
 
 export default function RootLayout({
   children,
@@ -36,7 +36,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="de">
       <body className={poppins.className}>
         <Navbar />
         {children}

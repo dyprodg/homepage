@@ -28,7 +28,7 @@ export default function MainBodyDesktop() {
             >
             <TextGenerateEffect
                 className="text-4xl"
-                words={`Hi, my name is Dennis Diepolder and I'm a Fullstack Developer and Cloud Engineer.`} 
+                words={`Hallo, mein Name ist Dennis Diepolder und ich bin ein Fullstack-Entwickler und Cloud-Engineer.`} 
              />
              </motion.div>
             {/* Second Text*/}
@@ -39,7 +39,7 @@ export default function MainBodyDesktop() {
                 transition={{ duration: 2, delay: 4.5, type: "spring", stiffness: 80}}
              >
                 <div className="hidden md:block text-2xl mt-20">
-                    {`I have a passion for building websites, platforms and cloud infrastructure. I am experienced in developing serverless web applications, cloud infrastructure, and automation tools. I'm always looking for new challenges and opportunities to learn and grow.`}
+                    {`Ich habe eine Leidenschaft für das Entwickeln von Websites, Plattformen und Cloud-Infrastrukturen. Ich verfüge über Erfahrung in der Entwicklung von serverlosen Webanwendungen, Containerisierung und Automatisierungstools. Ich bin stets auf der Suche nach neuen Herausforderungen und Möglichkeiten!`}
                 </div>
              </motion.div>
             {/* Third Text*/}
@@ -57,7 +57,7 @@ export default function MainBodyDesktop() {
                   orderRadius="1.75rem"
                   className="bg-slate-900 text-white border-slate-800 text-xl hover:scale-110 transition ease-in-out duration-100"
                 >
-                  More
+                  Mehr Infos
                 </Button>
               </Link>
               
@@ -113,7 +113,7 @@ export default function MainBodyDesktop() {
         transition={{ duration: 1, delay: 5, type: "spring", stiffness: 30}}
       >
         <div className="p-4 text-4xl">
-            My <span className="text-blue-600">Tech Stack</span> to achieve this goal:
+            Mein <span className="text-blue-600">Tech Stack</span> mit dem ich arbeite:
         </div>
 
         <div>
