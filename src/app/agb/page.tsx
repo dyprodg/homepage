@@ -2,52 +2,51 @@ import Footer from "@/components/footer";
 
 export const metadata = {
     title: "Dennis Diepolder - AGB",
-    description: "This is the terms and conditions.",
-    keywords: ["Terms", "Conditions"],
-  };
+    description: "Dies sind die allgemeinen Geschäftsbedingungen.",
+    keywords: ["AGB", "Geschäftsbedingungen"],
+};
 
 export default function AGB() {
     return (
       <div className="w-full flex flex-col bg-black h-screen uppercase mt-20 space-y-1 p-8">
-            <div className="text-5xl font-bold">Terms and Conditions</div>
+            <div className="text-5xl font-bold">Allgemeine Geschäftsbedingungen</div>
             <div>
               <div>
-                <h1 className="text-2xl font-bold">General Terms and Conditions</h1>
-                <h1 className="text-xl font-bold mt-2">1. Scope</h1>
+                <h1 className="text-2xl font-bold">Allgemeine Geschäftsbedingungen</h1>
+                <h1 className="text-xl font-bold mt-2">1. Geltungsbereich</h1>
                 <div>
-                  These General Terms and Conditions apply to all users of the website. By using the website, you agree to these terms.
+                  Diese Allgemeinen Geschäftsbedingungen gelten für alle Nutzer der Website. Durch die Nutzung der Website stimmen Sie diesen Bedingungen zu.
                 </div>
-                <h1 className="text-xl font-bold mt-2">2. Copyright</h1>
+                <h1 className="text-xl font-bold mt-2">2. Urheberrecht</h1>
                 <div>
-                  All content on this website, including texts, logos, and images are owned by the company and protected by copyright law. The use of the content, including reproduction, modification, distribution, or reproduction without prior written consent of the company is strictly prohibited. The codebase is open-source and can be found on GitHub.  <a href="https://github.com/dyprodg/homepage" target="_blank" className="underline">https://github.com/dyprodg/homepage</a>
+                  Alle Inhalte auf dieser Website, einschließlich Texte, Logos und Bilder, sind Eigentum des Unternehmens und durch das Urheberrecht geschützt. Die Nutzung der Inhalte, einschließlich Vervielfältigung, Veränderung, Verbreitung oder Reproduktion ohne vorherige schriftliche Zustimmung des Unternehmens ist strengstens untersagt.
                 </div>
                 <h1 className="text-xl font-bold mt-2">3. Cookies</h1>
                 <div>
-                  This website uses cookies necessary for the operation and security of the website. These cookies do not collect personal data and are used solely to ensure the functionality of the website.
+                  Diese Website verwendet Cookies, die für den Betrieb und die Sicherheit der Website erforderlich sind. Diese Cookies sammeln keine persönlichen Daten und dienen ausschließlich dazu, die Funktionalität der Website sicherzustellen.
                 </div>
-                <h1 className="text-xl font-bold mt-2">4. Disclaimer</h1>
+                <h1 className="text-xl font-bold mt-2">4. Haftungsausschluss</h1>
                 <div>
-                  The contents of our pages have been created with the utmost care. However, we cannot assume any liability for the accuracy, completeness, and timeliness of the content. As a service provider, we are responsible for our own content on these pages according to the general laws, but are not obligated to monitor transmitted or stored information from third parties.
+                  Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Haftung übernehmen. Als Diensteanbieter sind wir für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich, jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen.
                 </div>
-                <h1 className="text-xl font-bold mt-2">5. Changes to the Terms and Conditions</h1>
+                <h1 className="text-xl font-bold mt-2">5. Änderungen der Allgemeinen Geschäftsbedingungen</h1>
                 <div>
-                  We reserve the right to change these terms and conditions at any time without prior notice. The current version of the terms and conditions can be viewed on our website.
+                  Wir behalten uns das Recht vor, diese Allgemeinen Geschäftsbedingungen jederzeit ohne vorherige Ankündigung zu ändern. Die aktuelle Version der Allgemeinen Geschäftsbedingungen kann auf unserer Website eingesehen werden.
                 </div>
-                <h1 className="text-xl font-bold mt-2">6. Consent to Data Processing by Contact Form</h1>
+                <h1 className="text-xl font-bold mt-2">6. Einwilligung zur Datenverarbeitung durch Kontaktformular</h1>
                 <div>
-                  By submitting the contact form, you agree that your entered data (name, email address, and other information provided in the form) will be stored and processed by the company to handle your inquiry. Your data will be treated confidentially and will not be passed on to third parties without your explicit consent.
+                  Durch das Absenden des Kontaktformulars erklären Sie sich damit einverstanden, dass Ihre eingegebenen Daten (Name, E-Mail-Adresse und andere im Formular angegebenen Informationen) von der Firma gespeichert und verarbeitet werden, um Ihre Anfrage zu bearbeiten. Ihre Daten werden vertraulich behandelt und ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben.
                   <div>
-                    You have the right to revoke your consent at any time. The revocation of your consent does not affect the legality of the processing of your data carried out until the revocation. Further information on the processing of your data can be found in our privacy policy.
+                    Sie haben das Recht, Ihre Einwilligung jederzeit zu widerrufen. Der Widerruf Ihrer Einwilligung berührt nicht die Rechtmäßigkeit der bis zum Widerruf erfolgten Verarbeitung Ihrer Daten. Weitere Informationen zur Verarbeitung Ihrer Daten finden Sie in unserer Datenschutzerklärung.
                   </div>
                 </div>
-                <h1 className="text-xl font-bold mt-2">7. Final Provisions</h1>
+                <h1 className="text-xl font-bold mt-2">7. Schlussbestimmungen</h1>
                 <div>
-                  Should individual provisions of these terms and conditions be or become invalid or unenforceable, the validity of the remaining terms and conditions shall remain unaffected. Instead of the invalid or unenforceable provision, the valid and enforceable provision which comes closest to the economic objectives pursued by the contracting parties with the invalid or unenforceable provision shall apply. The above provisions apply accordingly in the event that the terms and conditions prove to be incomplete.
+                  Sollten einzelne Bestimmungen dieser Allgemeinen Geschäftsbedingungen ganz oder teilweise unwirksam oder undurchführbar sein oder werden, so bleibt die Wirksamkeit der übrigen Bestimmungen unberührt. Anstelle der unwirksamen oder undurchführbaren Bestimmung gilt die wirksame und durchführbare Bestimmung als vereinbart, die dem wirtschaftlichen Zweck der unwirksamen oder undurchführbaren Bestimmung am nächsten kommt. Die vorstehenden Bestimmungen gelten entsprechend für den Fall, dass sich die Allgemeinen Geschäftsbedingungen als lückenhaft erweisen.
                 </div>
               </div>
             </div>
             <Footer />
       </div>
     );
-  }
-  
+}

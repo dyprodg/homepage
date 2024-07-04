@@ -58,7 +58,7 @@ export default function AboutMain() {
                         />
                     <div className='m-4'>
                         <div className="text-7xl text-center mt-16 uppercase">
-                        <div className='text-blue-600 text-8xl font-bold'>Who </div>am i?
+                        <div className='text-blue-600 text-8xl font-bold'>Wer </div>bin ich?
                         </div>
                     </div>
                     </motion.div>
@@ -78,11 +78,12 @@ export default function AboutMain() {
                             height={600}
                             className='rounded-3xl md:hidden block'
                         />
-                    <div className='text-3xl mt-4 text-center uppercase'>
-                            I am 27 years old
+                    <div className='text-3xl mt-4 text-center uppercase max-w-[380px] md:max-w-[1000px]'>
+                            Mein Name ist Dennis Diepolder
                         </div>
-                        <div className='text-3xl text-center uppercase'>
-                            and from munich, germany
+                        <div className='text-3xl text-center uppercase max-w-[380px] md:max-w-[1000px]'>
+                            ich bin Webanwendungs Entwickler <br />
+                            und Cloud Enthusiast
                         </div>
                     </motion.div>
                 </div>
@@ -94,15 +95,15 @@ export default function AboutMain() {
                     animate={isInView3 ? 'visible' : 'hidden'}
                     variants={fadeInVariants}
                 >
-                    <div className='m-4'>
+                    <div className='m-4 max-w-[380px] md:max-w-[1000px]'>
                         <div className="text-7xl text-center mt-16 uppercase">
-                        <div className='text-blue-600 text-8xl font-bold'>What </div>i did?
+                        <div className='text-blue-600 text-8xl font-bold'>Was </div>habe ich bis jetzt gemacht?
                         </div>
                         <div className='text-3xl mt-4 text-center uppercase'>
-                            I worked in retail for years
+                            Ich habe Jahre lang im Handel gearbeitet
                         </div>
                         <div className='text-3xl text-center uppercase'>
-                            {`and I'm still a hobby photographer.`}
+                            {`und bin bis Heute Hobby Fotograf`}
                         </div>
                     </div>
                 </motion.div>
@@ -114,15 +115,15 @@ export default function AboutMain() {
                     animate={isInView4 ? 'visible' : 'hidden'}
                     variants={fadeInVariants}
                 >
-                    <div className='m-4'>
+                    <div className='m-4 max-w-[380px] md:max-w-[1000px]'>
                         <div className="text-7xl text-center md:text-left mt-16 uppercase">
-                        <div className='text-blue-600 text-8xl font-bold'>When </div>did I start?
+                        <div className='text-blue-600 text-8xl font-bold'>Wann </div>hab ich angefangen?
                         </div>
                         <div className='text-3xl mt-4 text-center md:text-left uppercase'>
-                            With years of customer service experience in retail, I shifted to the tech industry in mid-2022
+                            Mit jahrelanger Erfahrung im Kundenservice im Handel, <br/> wechselte ich Mitte 2022 in die Tech-Branche
                         </div>
                         <div className='text-3xl text-center md:text-left uppercase'>
-                            pursuing my lifelong passion for computers and building things
+                            um meiner lebenslangen Leidenschaft für Computer und dem Bauen von Dingen nachzugehen
                         </div>
                     </div>
                 </motion.div>
@@ -133,26 +134,26 @@ export default function AboutMain() {
                     animate={isInView5 ? 'visible' : 'hidden'}
                     variants={fadeInVariants}
                 >
-                    <div className='m-4'>
-                        <div className="text-7xl text-center md:text-right mt-16 uppercase">
-                        <div className='text-blue-600 text-8xl font-bold'>Why </div>am i doing it?
-                        </div>
-                        <div className='text-3xl mt-4 text-center md:text-right uppercase'>
-                            {`As a creative at heart, I'm also deeply committed to technology`}
-                        </div>
-                        <div className='text-3xl text-center md:text-right uppercase'>
-                            I always strive to learn more about the digital world
-                        </div>
-                        <div className='text-3xl text-center md:text-right uppercase'>
-                            As a 13 year old, I build my first computer
-                        </div>
-                        <div className='text-3xl text-center md:text-right uppercase'>
-                            {`Since that day, I'm fascinated by the possibilities of technology`}
-                        </div>
-                        <div className='text-3xl text-center md:text-right uppercase'>
-                            And using my skills to help others
-                        </div>
+                <div className='m-4 max-w-[380px] md:max-w-[1000px]'>
+                    <div className="text-7xl text-center md:text-right mt-16 uppercase">
+                        <div className='text-blue-600 text-8xl font-bold'>Warum </div>mach ich es?
                     </div>
+                    <div className='text-3xl mt-4 text-center md:text-right uppercase'>
+                        {`Als kreativer Kopf bin ich auch zutiefst der Technologie verpflichtet`}
+                    </div>
+                    <div className='text-3xl text-center md:text-right uppercase'>
+                        Ich strebe immer danach, mehr über die digitale Welt zu lernen
+                    </div>
+                    <div className='text-3xl text-center md:text-right uppercase'>
+                        Mit 13 Jahren habe ich meinen ersten Computer zusammengebaut
+                    </div>
+                    <div className='text-3xl text-center md:text-right uppercase'>
+                        {`Seit diesem Tag bin ich fasziniert von den Möglichkeiten der Technologie`}
+                    </div>
+                    <div className='text-3xl text-center md:text-right uppercase'>
+                        Und nutze meine Fähigkeiten, um anderen zu helfen
+                    </div>
+                </div>
                 </motion.div>
 
                 <motion.div 
@@ -162,26 +163,20 @@ export default function AboutMain() {
                     animate={isInView6 ? 'visible' : 'hidden'}
                     variants={fadeInVariants}
                 >
-                    <div className='m-4'>
-                        <div className="text-7xl text-center mt-16 uppercase">
-                            and <div className='text-blue-600 text-8xl font-bold'>Now</div>?
-                        </div>
-                        <div className='text-3xl mt-4 text-center uppercase'>
-                            I love building websites and code
-                        </div>
-                        <div className='text-3xl text-center uppercase'>
-                            Create userplatforms and cloud infrastructure
-                        </div>
-                        <div className='text-3xl text-center uppercase'>
-                            and also automate tasks for efficiency
-                        </div>
-                        <div className='text-3xl text-center uppercase'>
-                            always looking for new challenges and opportunities to learn and grow
-                        </div>
-                        <div className='text-3xl text-center uppercase'>
-                            {`I'm currently self-studying cybersecurity to protect the digital assets I develop`}
-                        </div>
+                <div className='m-4 max-w-[380px] md:max-w-[1000px]'>
+                    <div className="text-7xl text-center mt-16 uppercase">
+                        und <div className='text-blue-600 text-8xl font-bold'>jetzt</div>?
                     </div>
+                    <div className='text-3xl mt-4 text-center uppercase'>
+                        Ich liebe es, Websites und Code zu entwickeln
+                    </div>
+                    <div className='text-3xl text-center uppercase'>
+                        Benutzerplattformen und Cloud-Infrastrukturen zu erstellen
+                    </div>
+                    <div className='text-3xl text-center uppercase'>
+                        sowie Aufgaben zur Effizienzsteigerung automatisieren
+                    </div>
+                </div>
                 </motion.div>
 
                 <motion.div
@@ -192,27 +187,27 @@ export default function AboutMain() {
                     variants={fadeInVariants}
                 >
                     <div className='text-2xl text-center uppercase m-4'>
-                          {`Wanna See the`} <div className='text-blue-500 font-bold'>Projects</div> {`I've worked on? Or get in touch with me? `}
+                          {`Du willst meine`} <div className='text-blue-500 font-bold'>Projekte</div> {`sehen oder mit mir in Kontakt treten?`}
                     </div>
                     <div className='flex space-x-8'>
                     <Link
-                        href='/projects'
+                        href='/projekte'
                     >
                     <Button
                         borderRadius='1.75rem'
                         className='bg-slate-900 text-white border-slate-800 text-xl hover:scale-110 transition ease-in-out duration-100'
                     >
-                        Projects
+                        Projekte
                     </Button>
                     </Link>
                     <Link
-                        href='/contact'
+                        href='/kontakt'
                     >
                     <Button
                         borderRadius='1.75rem'
                         className='bg-slate-900 text-white border-slate-800 text-xl hover:scale-110 transition ease-in-out duration-100'
                     >
-                        Contact
+                        Kontakt
                     </Button>
                     </Link>
                     </div>
