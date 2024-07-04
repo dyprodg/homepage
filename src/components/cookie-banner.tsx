@@ -21,21 +21,22 @@ const CookieBanner = () => {
   if (!isVisible) return null;
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 bg-black p-4 flex justify-between items-center z-50 text-xs">
-      <div>
-        {`This website uses only technically necessary cookies to ensure the
-        functionality of the website. No cookies are stored that are not necessary
-        for the functionality of the website.`}
-      </div>
-      <div className="space-x-4">
-        <Button
-          className="text-xl hover:scale-105 transition ease-in-out duration-100"
-          onClick={handleAccept}
-        >
-          Accept
-        </Button>
-      </div>
+<div className="fixed bottom-0 left-0 right-0 bg-black p-4 flex justify-between items-center z-50 text-xs">
+    <div>
+        {`Diese Website verwendet nur technisch notwendige Cookies, um die
+        Funktionalität der Website sicherzustellen. Es werden keine Cookies gespeichert,
+        die für die Funktionalität der Website nicht erforderlich sind.`}
     </div>
+    <div className="space-x-4">
+        <Button
+            className="text-xl hover:scale-105 transition ease-in-out duration-100"
+            onClick={handleAccept}
+        >
+            Akzeptieren
+        </Button>
+    </div>
+</div>
+
   );
 };
 
