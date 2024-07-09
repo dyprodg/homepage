@@ -51,7 +51,7 @@ export default function MainBodyDesktop() {
              >
               {/* More Button Here */}
               <Link
-                href="/about"
+                href="/infos"
               >
                 <Button
                   orderRadius="1.75rem"
