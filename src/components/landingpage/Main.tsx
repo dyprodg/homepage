@@ -39,7 +39,7 @@ export default function MainBodyDesktop() {
                 transition={{ duration: 2, delay: 4.5, type: "spring", stiffness: 80}}
              >
                 <div className="hidden md:block text-2xl mt-20">
-                    {`Ich habe eine Leidenschaft für das Entwickeln von Websites, Plattformen und Cloud-Infrastrukturen. Ich verfüge über Erfahrung in der Entwicklung von serverlosen Webanwendungen, Containerisierung und Automatisierungstools. Ich bin stets auf der Suche nach neuen Herausforderungen und Möglichkeiten!`}
+                    {`Ich biete maßgeschneiderte Lösungen für Websites, Plattformen und Cloud-Infrastrukturen an. Mit Erfahrung in serverlosen Webanwendungen, Containerisierung und Automatisierungstools sorge ich dafür, dass Ihre Projekte effizient und skalierbar sind. Immer auf der Suche nach neuen Herausforderungen und Möglichkeiten, unterstütze ich Sie dabei, Ihre Visionen in die Realität umzusetzen.`}
                 </div>
              </motion.div>
             {/* Third Text*/}
@@ -51,13 +51,13 @@ export default function MainBodyDesktop() {
              >
               {/* More Button Here */}
               <Link
-                href="/infos"
+                href="/services"
               >
                 <Button
-                  orderRadius="1.75rem"
+                  BorderRadius="1.75rem"
                   className="bg-slate-900 text-white border-slate-800 text-xl hover:scale-110 transition ease-in-out duration-100"
                 >
-                  Mehr Infos
+                  Zu den Services
                 </Button>
               </Link>
               
