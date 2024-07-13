@@ -15,13 +15,13 @@ export const projects: CardProps[] = [
         href: 'https://github.com/dyprodg/eagler',
         header: 'Eagler - Just Another Social Media',
         shortdescription: 'Plattform zum Hochladen und Teilen von Fotos',
-        longdescription: 'Eine Social-Media-Plattform, die mit Next.js und Tailwind CSS gebaut wurde. Benutzer können ein Konto erstellen, Bilder hochladen, liken und kommentieren. Die Plattform verfügt über ein responsives Design und wird auf einem benutzerdefinierten EC2-Cluster auf AWS gehostet, mit einer PostgreSQL-Datenbank und S3/CloudFront. Weitere Details auf Github.',
+        longdescription: `Eine Social-Media-Plattform, die mit Next.js und Tailwind CSS gebaut wurde. Benutzer können ein Konto erstellen, Bilder hochladen, liken und kommentieren. Die Plattform verfügt über ein responsives Design und wird auf einem benutzerdefinierten EC2-Cluster auf AWS gehostet, mit einer PostgreSQL-Datenbank und S3/CloudFront. Weitere Details auf Github.  Die Website ist akutell offline, da die Kosten für den ungenutzten Betrieb zu hoch sind.`,
         image: '/eagler.jpeg',
         imageAlt: 'Eagler Bild',
         github: 'https://github.com/dyprodg/eagler',
     },
     {
-        title: 'Website',
+        title: 'Website und IT-Support',
         href: 'https://freihaus.ch',
         header: 'Freihaus GmbH Website',
         shortdescription: 'Kunden-Website für ein lokales Unternehmen',
@@ -29,15 +29,6 @@ export const projects: CardProps[] = [
         image: '/freihaus.jpeg',
         imageAlt: 'Freihaus Bild',
         github: 'https://github.com/freihaus/freihaus'
-    },
-    {
-        title: 'IT-Support',
-        href: 'https://freihaus.ch',
-        header: 'Freihaus GmbH IT-Support',
-        shortdescription: 'Kunden-IT-Support für ein lokales Unternehmen',
-        longdescription: 'IT-Support für ein lokales Unternehmen. Von Webhosting und AWS-Kontoadministration bis hin zur Netzwerk- und E-Mail-Server-Einrichtung biete ich Unterstützung für eine Vielzahl von IT-Dienstleistungen.',
-        image: '/freihaus2.png',
-        imageAlt: 'Freihaus Logo',
     },
     {
         title: 'API-Integration',
@@ -48,15 +39,5 @@ export const projects: CardProps[] = [
         image: '/api-test.jpeg',
         imageAlt: 'API-Test Bild',
         github: 'https://github.com/dyprodg/amplify-aws-api-speedtest'
-    },
-    {
-        title: 'Website-Spiel',
-        href: 'https://cookiegame.vercel.app/',
-        header: 'Kleines Cookie-Clicker-Spiel',
-        shortdescription: 'Website-Spiel',
-        longdescription: 'Dies ist nur ein kleines Spaßprojekt, aber ich denke, es ist dennoch erwähnenswert. Es ist ein einfaches Cookie-Clicker-Spiel, das mit Next.js und Tailwind CSS erstellt wurde. Das Spiel wird auf Vercel gehostet. Weitere Details auf Github.',
-        image: '/cookie-game.jpeg',
-        imageAlt: 'Cookie-Game Bild',
-        github: 'https://github.com/dyprodg/cookiegame/tree/main'
     },
 ]

@@ -3,6 +3,7 @@ import CardSection from "@/components/projects/card-section"
 import { Button } from "@/components/moving-border"
 import Link from "next/link"
 import Footer from "@/components/footer"
+import Image from "next/image"
 
 export const metadata = {
     title: "Dennis Diepolder - Projekte",
@@ -36,8 +37,15 @@ export default function ProjectPage() {
                     className='w-full flex flex-col justify-center items-center p-4 my-20'
                 >
                     <div className='text-2xl text-center uppercase m-4'>
-                          {`Möchten Sie`} <div className='text-blue-500 font-bold'>Kontakt</div> {`mit mir für ein Projekt aufnehmen?`}
+                          {`Möchten Sie`} <div className='text-blue-500 font-bold text-5xl'>Kontakt</div> {`mit mir aufnehmen um eines Ihrer Projekte zu verwirklichen?`}
                     </div>
+                    <Image
+                    src='/profile-square.jpeg'
+                    alt='Dennis Diepolder Profilbild'
+                    width={400}
+                    height={400}
+                    className='rounded-full'
+                />
                     <div className='flex space-x-8'>
                     <Link
                         href='/kontakt'

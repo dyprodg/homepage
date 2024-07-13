@@ -22,9 +22,9 @@ export default function Navbar() {
                         Home
                     </p>
                 </Link>
-                <Link href="/infos">
-                    <p className={`p-4 font-bold transition duration-100 ease-in-out ${isActive('/infos') ? 'text-blue-500' : 'hover:text-blue-500'}`}>
-                        Infos
+                <Link href="/services">
+                    <p className={`p-4 font-bold transition duration-100 ease-in-out ${isActive('/services') ? 'text-blue-500' : 'hover:text-blue-500'}`}>
+                        Services
                     </p>
                 </Link>
                 <Link href="/projekte">
